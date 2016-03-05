@@ -14,13 +14,6 @@
 
 @implementation NaviViewController
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    NaviViewController *naviVC = self.navigationController;
-    [naviVC rotateToDirection:UIInterfaceOrientationPortrait];
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
