@@ -28,6 +28,9 @@
     [self.navigationController pushViewController:imageviewC animated:YES];
 //    [self presentViewController:imageviewC animated:YES completion:nil];
 }
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

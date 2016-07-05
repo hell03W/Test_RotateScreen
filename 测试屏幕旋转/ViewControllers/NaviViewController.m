@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    /// 获取当前屏幕方向
+    UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
 }
 
 //返回当前正在显示的控制器是否支持屏幕旋转
